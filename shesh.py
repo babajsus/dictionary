@@ -5,9 +5,12 @@ thisdict = {
     "krasa" : "zila",
 
 }
+print(thisdict)
 
 thisdict ["atrumkarba"] = "automats"
+print(thisdict)
 thisdict.pop("izlaiduma gads")
+print(thisdict)
 thisdict["krasa"] = "sarkans"
 
 print(thisdict)
